@@ -1,3 +1,16 @@
-clone the repo on your local
-run **npm i** to install the node_modules pacakge.
-Then run the test on lambdatest
+# cypress-smaple
+
+## Pre-requisites
+
+1. Clone the repository on your system.
+
+2. Install the npm dependencies.
+
+```
+npm install
+```
+3. Pass the below command to run the test.
+
+```
+lambdatest-cypress run
+```
