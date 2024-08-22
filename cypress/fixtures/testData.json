@@ -1,0 +1,21 @@
+{
+    "firstName"       : "Akshay",
+    "lastName"        : "Bardol",
+    "email"           : "test1@yopomail.com",
+    "telephoneNo"     : "1234567890",
+    "password"        : "Akshay@123",
+    "cnfPassword"     : "Akshay@123",
+    "subscribDecision": "No",
+    "envName"         : "dev",
+    "pageName"        : {"register":"Register","login":"Login"},
+    "successMsg"      : "Your Account Has Been Created!",
+    "productType"     : "Apple",
+    "productName"     : "MacBook",
+    "companyName"     : "TCS",
+    "address"         : "124, green street",
+    "city"            : "Pune",
+    "postcode"        : "12345",
+    "country"         : "India",
+    "state"           : "Maharashtra",
+    "orderConfirmMsg" : "Your order has been placed!"
+}

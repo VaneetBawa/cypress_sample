@@ -1,0 +1,40 @@
+{
+   "lambdatest_auth": {
+      "username": "",
+      "access_key": ""
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "build-nameTest",
+      "parallels": 1,
+      "specs": "cypress/e2e/ApiTests.cy.js",
+      "ignore_files": "",
+      "video": true,
+      "visual":true,
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "13.7.3",
+         "cypress-mochawesome-reporter": "^3.8.2",
+         "mocha": "^10.7.3",
+         "mochawesome": "^7.1.3",
+         "mochawesome-merge": "^4.2.0",
+         "mochawesome-report-generator": "^6.2.0",
+         "lambdatest-cypress-cli": "^3.0.15",
+         "@faker-js/faker": "^8.4.1"
+      }
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
